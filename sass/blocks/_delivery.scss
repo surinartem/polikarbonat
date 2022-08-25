@@ -1,0 +1,17 @@
+.delivery{
+    &__wrap{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__images{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    &__list {
+        li{
+            margin-bottom: 10px;
+        }
+    }
+}

@@ -1,0 +1,13 @@
+.contacts {
+    &__wrap{
+        display: flex;
+    }
+    ul{
+        margin-right: 220px;
+        list-style-type: none;
+    }
+    li{
+        margin-top: 10px;
+        font-size: 16px;
+    }
+}

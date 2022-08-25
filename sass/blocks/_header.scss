@@ -1,0 +1,92 @@
+    
+.header {
+
+ 
+    &__wrap {
+    max-width: 100%;
+    background: url(../../img/bg.png) center no-repeat;
+    }
+    &__menu{
+        padding-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+    }
+    &__submenu{
+        display: flex;
+        align-items:center;
+    }
+    &__logo {
+        margin-right: 30px;
+    }
+    &__name {
+        text-transform: uppercase;
+        font-size: 28px;
+        font-weight: 900;
+        font-family: 'Times New Roman', Times, serif;
+        color: white;
+    }
+    &__tel {
+        display: flex;
+        margin-right: 40px;
+        align-items:center;
+        &__button {
+            background-color: $red-color;
+            font-family: "open sans";
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 1rem;
+            color: white;
+            border:none;
+            border-radius: 5px;
+            width: 224px;
+            height: 44px;
+
+        }
+    }
+    &__tel_image {
+        margin-right: 10px;
+    }
+    &__phone {
+        text-decoration: none;
+        color: black;
+        text-shadow: 0.0625rem 0.0625rem 0.1875rem #f7f7f7;
+        font-size: 26px;
+        font-weight: 700;
+        font-family: "open sans";
+
+
+    }
+    &__main {
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        position: relative;
+        padding-bottom: 50px; 
+    }
+    &__options{
+        background-color: rgba(0,0,0,0.65);
+        width: 40%;
+        color:white;
+        font-family: "open sans";
+        font-weight: 600;
+        font-size: 18px;
+        padding: 40px ;
+        img{
+            margin-right: 20px;
+        }
+        .stroke {
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+        }
+     
+    }
+
+}
+h1 {
+    text-align: center;
+    font-size: 42px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 0rem 0rem 0.9375rem #f7f7f7;
+}

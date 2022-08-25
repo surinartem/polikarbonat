@@ -1,0 +1,13 @@
+.pay {
+    &__images {
+        margin-top:50px;
+        display: flex;
+        justify-content:space-around;
+    }
+    &__wrap {
+        li {
+            font-size:16px;
+            margin-top:15px;
+        }
+    }
+}

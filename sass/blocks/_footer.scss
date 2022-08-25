@@ -1,0 +1,32 @@
+.footer{
+    &__list{
+        display:flex;
+        justify-content:space-between;
+        margin-top: 40px;
+        li{
+            margin-bottom: 5px;
+            list-style-type: none;
+            font-weight: 500;
+            cursor: pointer;
+            }
+        }
+    &__rights{
+        text-align: center;
+        margin-top: 50px;
+        font-size: 18px;
+        cursor: pointer;
+    }    
+    &__menu{
+        margin-top: 30px;
+        background-color:#5dac1f;
+        display: flex;
+        justify-content: space-around;
+        font-size: 18px;
+        a{
+            text-decoration: none;
+            color: white;
+            padding: 20px 0;
+            cursor: pointer;
+        }
+    }
+}
